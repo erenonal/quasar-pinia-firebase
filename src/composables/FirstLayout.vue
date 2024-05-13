@@ -15,7 +15,7 @@ import OutputLayout1 from "../components/OutputLayout1.vue";
   width: 100vw;
 }
 .same-width {
-  width: 30%;
+  width: 50%;
 
   @media (max-width: 768px) {
     width: 50%;
