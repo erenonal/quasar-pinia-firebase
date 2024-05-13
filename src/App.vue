@@ -1,5 +1,5 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import InputLayout1 from './components/InputLayout1.vue'
 import { useUsersStore } from './stores/UsersStore';
 const UsersStore = useUsersStore()
 const updateEmail = (newEmail) => {
@@ -8,9 +8,8 @@ const updateEmail = (newEmail) => {
 </script>
 
 <template>
-   <div>
-    <q-btn label="eren" @click="updateEmail('new@example.com')"></q-btn>
-    <h1 style="color: red">{{ UsersStore.mailAddress }}</h1>
+   <div class="flex">
+    <InputLayout1></InputLayout1>
   </div>
 </template>
 
