@@ -12,13 +12,9 @@ import OutputLayout1 from "../components/OutputLayout1.vue";
 
 <style scoped>
 .screen-full {
-  width: 100vw;
+  width: 100%;
 }
 .same-width {
   width: 50%;
-
-  @media (max-width: 768px) {
-    width: 50%;
-  }
 }
 </style>

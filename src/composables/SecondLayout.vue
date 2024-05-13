@@ -1,12 +1,12 @@
 <template>
   <div class="flex justify-center items-center screen-full">
-    <InputLayout1 class="same-width"></InputLayout1>
-    <OutputLayout1 class="same-width"></OutputLayout1>
+    <InputLayout2 class="same-width"></InputLayout2>
+    <OutputLayout2 class="same-width"></OutputLayout2>
   </div>
 </template>
 <script setup>
-import InputLayout1 from "../components/InputLayout1.vue";
-import OutputLayout1 from "../components/OutputLayout1.vue";
+import InputLayout2 from "../components/InputLayout2.vue";
+import OutputLayout2 from "../components/OutputLayout2.vue";
 </script>
 <style scoped>
 .screen-full {
@@ -17,10 +17,6 @@ import OutputLayout1 from "../components/OutputLayout1.vue";
   align-items: center; /* Horizontally center children */
 }
 .same-width {
-  width: 30%;
-
-  @media (max-width: 768px) {
-    width: 50%;
-  }
+  width: 80%;
 }
 </style>
